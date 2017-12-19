@@ -200,17 +200,17 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # During devel
 
 
 # Using a secure-only session cookie makes it more difficult for network traffic sniffers to hijack user sessions.
-SESSION_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
 
 # Using an HttpOnly CSRF cookie makes it more difficult for cross-site scripting attacks to steal the CSRF token.
-#CSRF_COOKIE_HTTPONLY = True
+CSRF_COOKIE_HTTPONLY = True
 
 # Using a secure-only CSRF cookie makes it more difficult for network traffic sniffers to steal the CSRF token.
 #CSRF_COOKIE_SECURE = True
 
 # The default is 'SAMEORIGIN', but unless there is a good reason for your site to serve
 # other parts of itself in a frame, you should change it to 'DENY'.
-X_FRAME_OPTIONS = 'DENY'
+#X_FRAME_OPTIONS = 'DENY'
 
 # If False, your pages will not be served with an 'x-content-type-options: nosniff' header. You should consider enabling
 # this header to prevent the browser from identifying content types incorrectly.
