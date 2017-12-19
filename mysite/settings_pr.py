@@ -203,10 +203,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # During devel
 SESSION_COOKIE_SECURE = True
 
 # Using an HttpOnly CSRF cookie makes it more difficult for cross-site scripting attacks to steal the CSRF token.
-CSRF_COOKIE_HTTPONLY = True
+#CSRF_COOKIE_HTTPONLY = True
 
 # Using a secure-only CSRF cookie makes it more difficult for network traffic sniffers to steal the CSRF token.
-CSRF_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
 
 # The default is 'SAMEORIGIN', but unless there is a good reason for your site to serve
 # other parts of itself in a frame, you should change it to 'DENY'.
