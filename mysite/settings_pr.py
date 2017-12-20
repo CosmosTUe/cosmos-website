@@ -196,8 +196,20 @@ THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.filters'
 )
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # During development only
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Host for sending e-mail.
+EMAIL_HOST = 'nielsdejong.nl'
+
+# Port for sending e-mail.
+EMAIL_PORT = 587
+
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = 'cosmos@3ms.nl'
+EMAIL_HOST_PASSWORD = 'antsinmyeyes'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 
 # Using a secure-only session cookie makes it more difficult for network traffic sniffers to hijack user sessions.
 #SESSION_COOKIE_SECURE = True
