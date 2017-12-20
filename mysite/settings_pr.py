@@ -210,6 +210,9 @@ EMAIL_HOST_USER = 'cosmos@3ms.nl'
 EMAIL_HOST_PASSWORD = 'antsinmyeyes'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+EMAIL_MAIN = 'cosmos@3ms.nl'
+DEFAULT_FROM_EMAIL = 'cosmos@3ms.nl'
+SERVER_EMAIL = 'cosmos@3ms.nl'
 
 # Using a secure-only session cookie makes it more difficult for network traffic sniffers to hijack user sessions.
 #SESSION_COOKIE_SECURE = True

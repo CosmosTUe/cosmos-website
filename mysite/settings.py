@@ -220,6 +220,4 @@ THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.filters'
 )
 
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # During development only
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
