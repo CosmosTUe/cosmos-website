@@ -18,7 +18,8 @@ TEXT_ADDITIONAL_ATTRIBUTES = ('scrolling', 'allowfullscreen', 'frameborder', 'sr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '95.85.38.240', 'cosmostue.nl']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '95.85.38.240', 'cosmostue.nl', 
+		'*.cosmostue.nl', 'www.cosmostue.nl']
 
 # Application definition
 ROOT_URLCONF = 'mysite.urls'
