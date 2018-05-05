@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.messages',
     'django.utils.translation',
+#    'letsencrypt',
     'cms',
     'menus',
     'sekizai',
@@ -221,4 +222,3 @@ THUMBNAIL_PROCESSORS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
