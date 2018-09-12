@@ -129,7 +129,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.messages',
     'django.utils.translation',
-#    'letsencrypt',
+    'letsencrypt',
     'cms',
     'menus',
     'sekizai',
